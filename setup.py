@@ -6,5 +6,5 @@ setup(
    description='Python client for CAS service',
    author='Drake Aren Nelson',
    author_email='drake.aren@pm.me',
-   packages=['cas-client'],  #same as name
+   packages=['cas-client'],
 )
