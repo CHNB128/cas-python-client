@@ -13,4 +13,4 @@ def parse_token(client, token):
         s.connect(client)
         s.sendall(json.dumps(message).encode())
         data = s.recv(1024).decode()
-        return repr(json.loads(data))
+        return json.loads(data)
